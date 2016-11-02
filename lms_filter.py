@@ -1,7 +1,5 @@
 """Least mean squares filter"""
 import numpy as np
-import matplotlib.pyplot as plt
-import pdb
 
 def lms_filter(signal, order = 4, mu = 0.05 ):
     weight = np.zeros(order) # initial weight, the system model
